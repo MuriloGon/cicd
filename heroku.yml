@@ -1,5 +1,5 @@
 build:
   docker:
     web: Dockerfile
-run:
-  web: node index.js
+# run:
+#   web: docker run -dt -p "$PORT":3000 cicd
